@@ -24,16 +24,16 @@ export default function Navbar() {
 
   const isNavbarAtStart = () => {
    if (scrollPosition >= 35) {
-    return 'text-base !text-white backdrop-filter backdrop-blur-md transition-opacity delay-150 ease-in-out py-1 bg-gray-800 opacity-90 border-b border-gray-200'
+    return '!text-white backdrop-filter backdrop-blur-md transition-opacity delay-150 ease-in-out py-1 bg-neutral-900 opacity-90'
    }
    else {
-     return 'text-base text-gray-700 backdrop-filter backdrop-blur-lg'
+     return 'text-white opacity-50'
    }
   };
 
   return (
     <header className={`fixed w-full transition-all top-0 z-10 ${isNavbarAtStart()}`}>
-      <nav className="flex flex-wrap justify-center py-4 md:py-0 px-4 text-lg text-gray-700">
+      <nav className="flex flex-wrap justify-center py-4 md:py-0 px-4 text-lg text-white">
         <MenuIcon
           id="menu-button"
           onClick={handleToggle}
@@ -43,9 +43,9 @@ export default function Navbar() {
           stroke="currentColor"
         />
         <div className={`${isActive ? "hidden" : ""} w-full md:flex md:items-center md:w-auto`} id="menu">
-            <ul className="pt-4 md:flex md:justify-between md:pt-0">
+            <ul className="text-inherit pt-4 md:flex md:justify-between md:pt-0">
                 <li>
-                <a className="md:p-4 py-2 block hover:text-purple-400" href="#">
+                <a className="text-inherit md:p-4 py-2 block hover:text-purple-400" href="#">
                     Features
                 </a>
                 </li>

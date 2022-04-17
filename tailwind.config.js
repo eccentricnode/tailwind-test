@@ -4,7 +4,11 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'austin-hero': "url('../public/AUSTIN-HEADER.png')",
+      }
+    },
   },
   plugins: [],
 }
