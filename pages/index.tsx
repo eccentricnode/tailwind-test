@@ -13,19 +13,21 @@ const Home: NextPage = () => {
         <meta name="description" content="Testing ground for tailwindcss components" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className='bg-austin-hero pt-60 pb-96 bg-center'>
+      <div className='bg-austin-hero w-full h-screen relative bg-cover'>
         <div
           className="
-            flex
-            justify-center
-            items-center
-            mx-auto
-            max-w-2xl
-            rounded-lg
-            p-32
+          flex
+          justify-center
+          text-center
+          rounded-lg
+          pt-80
+          p-32
           "
         >
-          <h1 className="text-2xl font-medium">Responsive Navbar with TailwindCSS</h1>
+          <div className='py-9 px-4 backdrop-filter backdrop-blur-md transition-opacity bg-neutral-900 opacity-90'>
+            <h1 className="text-2xl text-white font-medium">Responsive Navbar with TailwindCSS</h1>
+            <h3 className='className="text-2xl text-white font-medium pt-5"'>Another line of text</h3>
+          </div>
         </div>
       </div>
       <div className="container mx-auto">
