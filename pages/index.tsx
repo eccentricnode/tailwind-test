@@ -36,9 +36,9 @@ const Home: NextPage = () => {
           <p className='py-10 px-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quos, sunt illum voluptate obcaecati inventore suscipit in eveniet consequatur nulla aut quae ipsa fugit unde dolor facere. Asperiores voluptate, nostrum dolorem veritatis voluptatibus obcaecati culpa minima amet vero minus nam voluptas quidem tempore fugiat iusto enim quas eius tenetur!</p>
         </div>
       </div>
-      <div className='bg-gray-600 text-white py-2'>
+      <div className='bg-gray-600 text-white py-24'>
         <div className='container leading-loose mx-auto'>
-          <p className='py-10 px-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quos, sunt illum voluptate obcaecati inventore suscipit in eveniet consequatur nulla aut quae ipsa fugit unde dolor facere. Asperiores voluptate, nostrum dolorem veritatis voluptatibus obcaecati culpa minima amet vero minus nam voluptas quidem tempore fugiat iusto enim quas eius tenetur!</p>
+          <p className=' px-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quos, sunt illum voluptate obcaecati inventore suscipit in eveniet consequatur nulla aut quae ipsa fugit unde dolor facere. Asperiores voluptate, nostrum dolorem veritatis voluptatibus obcaecati culpa minima amet vero minus nam voluptas quidem tempore fugiat iusto enim quas eius tenetur!</p>
           <p className='py-10 px-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quos, sunt illum voluptate obcaecati inventore suscipit in eveniet consequatur nulla aut quae ipsa fugit unde dolor facere. Asperiores voluptate, nostrum dolorem veritatis voluptatibus obcaecati culpa minima amet vero minus nam voluptas quidem tempore fugiat iusto enim quas eius tenetur!</p>
           <p className='py-10 px-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum rerum aliquam vero est saepe debitis dolorum vitae! Dolore illo odio veniam. Omnis modi quos itaque provident. Officia ex laboriosam odio eveniet, eos, voluptatem ea, accusantium nihil autem perferendis ipsa adipisci rem vitae corrupti ducimus ipsam soluta iusto necessitatibus non ad veniam harum molestias. Nemo distinctio, quasi assumenda laborum dicta dolore incidunt, explicabo aliquam ipsa praesentium eos ullam sed molestiae repellat reprehenderit neque. Sed minima enim veritatis tempora laudantium beatae, non in ullam. Odio optio quidem pariatur, dolorum tempore totam perspiciatis voluptatem repudiandae maxime debitis dignissimos, dolores obcaecati error quisquam provident.</p>
           <p className='py-10 px-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quos, sunt illum voluptate obcaecati inventore suscipit in eveniet consequatur nulla aut quae ipsa fugit unde dolor facere. Asperiores voluptate, nostrum dolorem veritatis voluptatibus obcaecati culpa minima amet vero minus nam voluptas quidem tempore fugiat iusto enim quas eius tenetur!</p>
@@ -47,7 +47,7 @@ const Home: NextPage = () => {
       </div>
 
       <Contact />
-      
+
     </div>
   )
 }

@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 export default function Navbar() {
   const [isActive, setActive] = useState("false");
   const handleToggle = () => {
-    setActive(!isActive);
+    setActive(isActive);
   };
   
   const [scrollPosition, setScrollPosition] = useState(0);
