@@ -7,7 +7,7 @@ import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
   return (
-    <div className="">
+    <div className="transition-fade">
       <Head>
         <title>Testing Tailwind</title>
         <meta name="description" content="Testing ground for tailwindcss components" />
@@ -30,14 +30,18 @@ const Home: NextPage = () => {
           </div>
         </div>
       </div>
+
+      {/* SKILLS Section */}
       <div className="container mx-auto">
-        <div className='text-lg antialiasedm leading-loose'>
+        <div className='text-lg antialiased'>
           <p className='py-9 px-4'>something goes here <br /> and something else goes here</p>
           <p className='py-9 px-4'>something goes here <br /> and something else goes here</p>
           <p className='py-9 px-4'>something goes here <br /> and something else goes here</p>
           <p className='py-10 px-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quos, sunt illum voluptate obcaecati inventore suscipit in eveniet consequatur nulla aut quae ipsa fugit unde dolor facere. Asperiores voluptate, nostrum dolorem veritatis voluptatibus obcaecati culpa minima amet vero minus nam voluptas quidem tempore fugiat iusto enim quas eius tenetur!</p>
         </div>
       </div>
+
+      {/* RESUME Section */}
       <div className='bg-gray-600 text-white py-24'>
         <div className='container leading-loose mx-auto'>
           <p className=' px-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quos, sunt illum voluptate obcaecati inventore suscipit in eveniet consequatur nulla aut quae ipsa fugit unde dolor facere. Asperiores voluptate, nostrum dolorem veritatis voluptatibus obcaecati culpa minima amet vero minus nam voluptas quidem tempore fugiat iusto enim quas eius tenetur!</p>
