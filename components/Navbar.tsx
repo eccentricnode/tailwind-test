@@ -46,7 +46,7 @@ export default function Navbar() {
         <div className={`${isActive ? "hidden" : ""} w-full md:flex md:items-center md:w-auto`} id="menu">
             <ul className="text-inherit pt-4 md:flex md:justify-between md:pt-0">
                 <li>
-                  <Link href="/">
+                  <Link href="/" scroll={false}>
                     <a className="text-inherit md:p-4 py-2 block hover:text-purple-400">
                         Home
                     </a>
@@ -64,14 +64,14 @@ export default function Navbar() {
                 </a>
                 </li>
                 <li>
-                <Link href="/blog">
+                <Link href="/blog" scroll={false}>
                     <a className="md:p-4 py-2 block hover:text-purple-400">
                         Blog
                     </a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="/blog">
+                  <Link href="/blog" scroll={false}>
                     <a className="md:p-4 py-2 block hover:text-purple-400 text-purple-500">
                         Sign Up
                     </a>
